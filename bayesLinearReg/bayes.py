@@ -128,6 +128,13 @@ def bayesCompare(xMat, yMat):
 
 
 def bayes(xMat, yMat):
+    """
+    此函数是用贝叶斯线性回归的方法做参数预测
+    alpha和beta的值通过从整个数据集中迭代产生
+    :param xMat:
+    :param yMat:
+    :return:
+    """
     PHI = []
     for x in xMat:
         PHI.append(phi(x))
@@ -175,6 +182,12 @@ def bayes(xMat, yMat):
 
 
 def normal(xMat, yMat):
+    """
+    这是Normal Linear Regression的使用
+    :param xMat:
+    :param yMat:
+    :return:
+    """
     PHI = []
     for x in xMat:
         PHI.append(phi(x))
@@ -199,6 +212,13 @@ def normal(xMat, yMat):
 
 
 def testBayes(mu, xMat, yMat):
+    """
+    此函数用于对得到的参数做RMSE误差检测
+    :param mu:
+    :param xMat:
+    :param yMat:
+    :return:
+    """
     PHI = []
     t = []
     for x in xMat:
