@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/PycharmProjects/MLL/.idea/MLL.iml" filepath="$USER_HOME$/PycharmProjects/MLL/.idea/MLL.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bayesLinearReg.iml" filepath="$PROJECT_DIR$/.idea/bayesLinearReg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fishersLinearDiscriminant/.idea/fishersLinearDiscriminant.iml" filepath="$PROJECT_DIR$/../fishersLinearDiscriminant/.idea/fishersLinearDiscriminant.iml" />
     </modules>
   </component>
 </project>

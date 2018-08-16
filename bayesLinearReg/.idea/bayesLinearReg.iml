@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MLL" />
+    <orderEntry type="module" module-name="fishersLinearDiscriminant" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
