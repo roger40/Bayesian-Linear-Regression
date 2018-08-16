@@ -40,7 +40,11 @@ class FisherLinearDiscriminant(object):
         y = yMat.reshape(1, -1)
         y = y.tolist()
         # print(y)
-        ax.scatter(y[0], self.trainY)
+        for i in range(len(self.trainX)):
+            if int(self.trainY[i]) == 1:
+                ax.scatter(y[0][i], 0, c='red')
+            else:
+                ax.scatter(y[0][i], 0, c='blue')
         plt.xlabel("y=w.T*X")
         plt.ylabel("category")
         plt.show()
